@@ -1,0 +1,6286 @@
+@charset "UTF-8";
+/* Reset: */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+/* 1. Main: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+/* Logo: */
+.logo {
+  margin: 33% 0% 48% 25%;
+  width: 20px;
+}
+
+/* Portada: */
+main {
+  /* Intro: */
+  /* Carousel: */
+  /* Iframe de Instagram: */
+}
+
+main .portada .portadaImg {
+  margin: 17% 0% 1% 0%;
+  width: 50%;
+}
+
+main .portada .login {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1em;
+  background-color: var(--dark-grey);
+  color: white;
+  margin: -76% 0% 15% 50%;
+  padding: 43px 26px;
+}
+
+main .portada .login .botones button {
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 8% 4% 2% 1%;
+  padding: 5px 1px;
+  width: 80%;
+}
+
+main .portada .login .botones button:hover {
+  background-color: var(--g);
+  color: white;
+}
+
+main .infoDeLaEmpresa {
+  border-top: 5px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.1em;
+  color: var(--black);
+  margin: -15% 0% -4% 0%;
+  padding: 28px 45px;
+  text-align: center;
+  /* Botón flotante de Whatsapp: */
+  /* Botón flotante del Cart: */
+}
+
+main .infoDeLaEmpresa .slogan {
+  font-weight: 600;
+  margin: 8% -3% 23% 0%;
+  font-size: 1.1em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+main .infoDeLaEmpresa .title {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin: 0% 1% 11% 1%;
+}
+
+main .infoDeLaEmpresa p {
+  margin: 0% 0% 9% 0%;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .infoDeLaEmpresa .infoImg {
+  width: 60%;
+  height: 28vh;
+  margin: 3% 0% 3% 0%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid var(--orange);
+  border-radius: 5px;
+}
+
+main .infoDeLaEmpresa .btnWhatsapp {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+main .infoDeLaEmpresa .cart1 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+main .productosDestacados .subtitle {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+  margin: 12% 0% 2% 0%;
+}
+
+main .productosDestacados .carousel1 .carousel img {
+  height: 40vh;
+  margin: -7% 0% 2% 0%;
+  padding: 10% 26%;
+}
+
+main .imagenDeInstagram .subtitle {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--black);
+  margin: 2% 0% 10% 1%;
+  text-align: center;
+}
+
+main .imagenDeInstagram .insta {
+  margin: -7px 49px 75px 18px;
+  width: 91%;
+}
+
+/* Footer: */
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons .subtitleSocialNetworks {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0% 17% 1% 20%;
+}
+
+footer .famousIcons .icons {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons .icons a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons .icons a i {
+  cursor: pointer;
+}
+
+footer .logoOnky {
+  padding: 0% 3%;
+}
+
+footer .logoOnky img {
+  width: 18%;
+  margin: 19% 40% 3% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky .copyright {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0% 2% 60% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  main .portada .portadaImg {
+    margin: 13% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 95px 26px;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 1.3em;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 54vh;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 66vh;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 21px;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  main .portada .portadaImg {
+    margin: 8% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 151px 26px;
+    font-size: 1.3em;
+  }
+  main .portada .login h3 {
+    font-size: 1.9em;
+    margin: 1% 1%;
+  }
+  main .portada .login .botones button {
+    font-size: 1.1em;
+    padding: 8px 1px;
+    width: 62%;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 1.8em;
+    margin: 8% -3% 13% 0%;
+  }
+  main .infoDeLaEmpresa .title {
+    font-size: 1.7em;
+    margin: 0% 1% 8% 1%;
+  }
+  main .infoDeLaEmpresa p {
+    font-size: 1.2em;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 80vh;
+  }
+  main .infoDeLaEmpresa .btnWhatsapp {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  main .infoDeLaEmpresa .cart1 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  main .productosDestacados .subtitle {
+    font-size: 1.7em;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 90vh;
+  }
+  main .imagenDeInstagram .subtitle {
+    font-size: 1.7em;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 32px;
+  }
+  footer .famousIcons .subtitleSocialNetworks {
+    font-size: 1.7em;
+  }
+  footer .famousIcons .icons {
+    font-size: 1.7em;
+  }
+  footer .logoOnky .copyright {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main .portada .portadaImg {
+    margin: 6% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 233px 26px;
+  }
+  main .portada .login h3 {
+    margin: 1% 30% 1% 1%;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 100vh;
+    width: 50%;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 100vh;
+    padding: 21px 318px;
+  }
+  main .imagenDeInstagram .subtitle {
+    margin: 6% 0% 3% 0%;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 40px;
+    padding: 1px 146px;
+  }
+  footer .famousIcons {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .portada .portadaImg {
+    margin: 4% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 307px 26px;
+  }
+  main .portada .login h3 {
+    font-size: 2.7em;
+  }
+  main .portada .login .botones button {
+    font-size: 2em;
+    padding: 14px 1px;
+    width: 62%;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 3.5em;
+  }
+  main .infoDeLaEmpresa .title {
+    font-size: 3.3em;
+    margin: -4% 1% 8% 1%;
+  }
+  main .infoDeLaEmpresa p {
+    font-size: 2.3em;
+  }
+  main .infoDeLaEmpresa .cart1 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  main .infoDeLaEmpresa .cart1 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  main .infoDeLaEmpresa .btnWhatsapp {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  main .productosDestacados .subtitle {
+    font-size: 3.3em;
+  }
+  main .imagenDeInstagram .subtitle {
+    font-size: 3.3em;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 75px;
+    padding: 1px 146px;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons .subtitleSocialNetworks {
+    font-size: 3em;
+  }
+  footer .famousIcons .icons {
+    font-size: 3em;
+  }
+  footer .logoOnky {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky .copyright {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 2. Nuestra misión: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoMission a {
+  text-decoration: none;
+}
+
+.logoMission a .logoCompleto1 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title1-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title1-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 26% 0% 28%;
+  padding: 24px 0px;
+}
+
+.p1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  text-align: center;
+  margin: 3% 12% 10% 13%;
+}
+
+.p1 .hashtag {
+  font-weight: bold;
+}
+
+.p1 .hashtag::after {
+  content: '\2764';
+  color: var(--orange);
+}
+
+.ourMissionImg {
+  margin: 2% 3% 23% 31%;
+  width: 40%;
+  height: 29vh;
+  border: 3px solid var(--orange);
+  border-radius: 5px;
+}
+
+.btn-whatsapp1 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart2 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons1 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .famousIcons1 .icons1 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons1 .icons1 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons1 .icons1 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky1 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky1 .copyright1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  main .ourMissionImg {
+    height: 46vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoMission .logoCompleto1 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title1-A {
+    font-size: 1.8em;
+  }
+  .title1-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .p1 p {
+    font-size: 1.3em;
+  }
+  main .ourMissionImg {
+    height: 70vh;
+  }
+  .btn-whatsapp1 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart2 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons1 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons1 .icons1 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky1 .copyright1 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoMission a .logoCompleto1 {
+    margin: 12% 4% 2% 29%;
+  }
+  .title1-B {
+    margin: 4% 28% -2% 29%;
+  }
+  .p1 p {
+    font-size: 1.5em;
+    margin: 6% 0%;
+  }
+  main .ourMissionImg {
+    width: 30%;
+    margin: -11% 36% 12% 36%;
+  }
+  footer .famousIcons1 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky1 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title1-A {
+    font-size: 3.4em;
+  }
+  .title1-B {
+    font-size: 3.5em;
+  }
+  .p1 p {
+    font-size: 2.8em;
+  }
+  main .ourMissionImg {
+    width: 38%;
+    margin: -11% 36% 12% 32%;
+  }
+  .btn-whatsapp1 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart2 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart2 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons1 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons1 .icons1 {
+    font-size: 3em;
+  }
+  footer .logoOnky1 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky1 .copyright1 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 3. Nuestros clientes: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoClients2 .logoCompleto2 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title2-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title2-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 25% 0% 28%;
+  padding: 24px 0px;
+}
+
+.clientesImg img {
+  width: 74%;
+  height: 37vh;
+  margin: 4% 5% 10% 13%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.p2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.5em;
+  text-align: center;
+  margin: 3% 11% 16% 12%;
+  font-weight: 600;
+}
+
+.btn-whatsapp2 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart3 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+.iFrameInstagram {
+  margin: -4% 5% 18% 4%;
+  width: 92%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons2 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .famousIcons2 .icons2 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons2 .icons2 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons2 .icons2 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky2 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky2 .copyright2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .clientesImg img {
+    height: 70vh;
+  }
+  .p2 {
+    margin: 3% 17% 16% 18%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoClients2 .logoCompleto2 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title2-A {
+    font-size: 1.8em;
+  }
+  .title2-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .clientesImg img {
+    height: 70vh;
+    width: 37%;
+    margin: 4% 6%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .p2 {
+    font-size: 1.7em;
+    margin: 6% 17% 16% 18%;
+  }
+  .btn-whatsapp2 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart3 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons2 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons2 .icons2 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky2 .copyright2 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoClients2 .logoCompleto2 {
+    margin: 12% 4% 2% 29%;
+  }
+  .iFrameInstagram {
+    margin: -8% 4% 11% 4%;
+    padding: 0% 15%;
+  }
+  footer .famousIcons2 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky2 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title2-A {
+    font-size: 3.4em;
+  }
+  .title2-B {
+    font-size: 3.5em;
+  }
+  .p2 {
+    font-size: 3.1em;
+  }
+  .btn-whatsapp2 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart3 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart3 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons2 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons2 .icons2 {
+    font-size: 3em;
+  }
+  footer .logoOnky2 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky2 .copyright2 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/*  4. Contacto: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoContactUs3 .logoCompleto3 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title3-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title3-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 28% -8% 30%;
+  padding: 24px 0px;
+}
+
+.contactUs3 {
+  width: 58%;
+  height: 28vh;
+  margin: 11% 22%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.container-4 {
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 17% 0%;
+}
+
+.container-4 .contact h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 32% 0% 22%;
+  padding: 24px 0px;
+}
+
+.container-4 .contact h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -8% 3% 0% -6%;
+  padding: 24px 0px;
+}
+
+.container-4 .contact .infoClient {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.container-4 .contact .infoClient .form-control-4 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+  margin: 1% 11%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 0.9em;
+  width: 70%;
+}
+
+.container-4 .contact .infoClient .form-control-4 .infoDelCliente input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.container-4 .contact .infoClient .form-control-4 .infoDelCliente input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.container-4 .contact .infoClient .infoDelCliente.success input {
+  border-color: #00c854;
+}
+
+.container-4 .contact .infoClient .infoDelCliente.error input {
+  border-color: #ff6b5b;
+}
+
+.container-4 .contact .infoClient small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.container-4 .contact .infoClient small.error {
+  visibility: visible;
+}
+
+.container-4 .contact .tipoDeC {
+  margin: 1% 14%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 0.9em;
+  width: 70%;
+}
+
+.container-4 .contact .tipoDeC select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.container-4 .contact .tipoDeC select:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.container-4 .contact .tipoDeC.success select {
+  border-color: #00c854;
+}
+
+.container-4 .contact .tipoDeC.error select {
+  border-color: #ff6b5b;
+}
+
+.container-4 .contact small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.container-4 .contact small.error {
+  visibility: visible;
+}
+
+.container-4 .contact .mensaje {
+  margin: 1% 14%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 0.9em;
+  width: 70%;
+}
+
+.container-4 .contact .mensaje textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.container-4 .contact .mensaje textarea:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.container-4 .contact .mensaje.success textarea {
+  border-color: #00c854;
+}
+
+.container-4 .contact .mensaje.error textarea {
+  border-color: #ff6b5b;
+}
+
+.container-4 .contact small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.container-4 .contact small.error {
+  visibility: visible;
+}
+
+.container-4 .contact .typeDeConsulta {
+  margin: 7% 2% 14% 3%;
+}
+
+.container-4 .contact .typeDeConsulta h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  margin: 0% 35% -11% 27%;
+  text-align: center;
+}
+
+.container-4 .contact .typeDeConsulta .tipoDeC {
+  margin: 5% 0% 0% 18%;
+  width: 56%;
+  height: 7vh;
+}
+
+.container-4 .contact .mensaje {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -6% 21% 12% 12%;
+  padding: 13px 4px;
+}
+
+.container-4 .contact .mensaje .comentarioTextArea {
+  display: block;
+  margin: 1% 0% 1% 8%;
+  width: 82%;
+  height: 27vh;
+}
+
+.container-4 .contact .novedades h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin: -7% 22% 6% 10%;
+}
+
+.container-4 .contact .novedades .answer {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  margin: -17% -13% 7% 15%;
+}
+
+.container-4 .contact .submit {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 34%;
+  margin: 6% 17% 0% 28%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
+          box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.container-4 .contact .submit:hover {
+  background-color: var(--beige1);
+  color: var(--black);
+}
+
+.container-4 .contact .submit a,
+.container-4 .contact .submit a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.p3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0% 19% 14% 20%;
+  padding: 27px 0px;
+  border-top: 1px solid var(--black);
+  font-weight: bolder;
+}
+
+.p3-b {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -13% 19% 14% 20%;
+  padding: 27px 0px;
+  border-top: 1px solid var(--black);
+  font-weight: bolder;
+}
+
+.btn-whatsapp3 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart4 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons3 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .famousIcons3 .icons3 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons3 .icons3 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons3 .icons3 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky3 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky3 .copyright3 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .contactUs3 {
+    height: 50vh;
+  }
+  .container-4 .contact h3 {
+    margin: -3% 21% 0% 11%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    margin: 1% 11%;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    margin: -6% 35% -11% 26%;
+  }
+  .container-4 .contact .typeDeConsulta .tipoDeC {
+    height: 9vh;
+  }
+  .container-4 .contact .mensaje {
+    margin: -4% 21% 11% 11%;
+    padding: 11px 17px;
+  }
+  .container-4 .contact .novedades h3 {
+    margin: -6% 22% 6% 10%;
+  }
+  .container-4 .contact .novedades .answer {
+    margin: -17% -14% 7% 20%;
+  }
+  .container-4 .contact .submit {
+    width: 32%;
+    margin: 3% 17% 3% 27%;
+    padding: 8px 0px;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoContactUs3 .logoCompleto3 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title3-A {
+    font-size: 1.8em;
+  }
+  .title3-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs3 {
+    height: 90vh;
+  }
+  .container-4 .contact h2 {
+    font-size: 1.9em;
+  }
+  .container-4 .contact h3 {
+    font-size: 1.5em;
+    margin: 0% 21% 4% 11%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 1.2em;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    font-size: 1.4em;
+    margin: -4% 35% -11% 26%;
+  }
+  .container-4 .contact .typeDeConsulta .form-control-4 .tipoDeC {
+    height: 10vh;
+    margin: 9% 0% -1% 17%;
+  }
+  .container-4 .contact .typeDeConsulta .form-control-4 .tipoDeC select {
+    font-size: 1.2em;
+  }
+  .container-4 .contact .mensaje {
+    margin: -2% 21% 11% 11%;
+    font-size: 1.4em;
+  }
+  .container-4 .contact .mensaje .comentarioTextArea {
+    margin: 1% 0% 1% 9%;
+    width: 78%;
+    height: 46vh;
+  }
+  .container-4 .contact .novedades h3 {
+    font-size: 1.5em;
+    margin: -4% 0% 3% -6%;
+  }
+  .container-4 .contact .novedades .answer {
+    font-size: 1.3em;
+    margin: -2% -22% 2% 26%;
+  }
+  .container-4 .contact .submit {
+    font-size: 1.4em;
+  }
+  .p3 {
+    font-size: 1.8em;
+  }
+  .p3-b {
+    font-size: 1.8em;
+  }
+  .btn-whatsapp3 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart4 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons3 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons3 .icons3 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky3 .copyright3 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoContactUs3 .logoCompleto3 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs3 {
+    width: 45%;
+    margin: 1% 28%;
+  }
+  .container-4 .contact h2 {
+    font-size: 2em;
+    margin: 4% -5%;
+  }
+  .container-4 .contact h3 {
+    margin: -3% 21% 5% 10%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 1.4em;
+    margin: 3% 11%;
+    width: 68%;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    font-size: 1.6em;
+    margin: -2% 35% -11% 26%;
+  }
+  .container-4 .contact .mensaje {
+    font-size: 1.6em;
+  }
+  .container-4 .contact .mensaje .comentarioTextArea {
+    height: 60vh;
+  }
+  .container-4 .contact .novedades h3 {
+    margin: -3% 0% 3% -6%;
+  }
+  .container-4 .contact .novedades .answer {
+    margin: -2% -22% 2% 29%;
+  }
+  .container-4 .contact .submit {
+    width: 21%;
+    margin: 3% 33%;
+  }
+  .p3 {
+    margin: -4% 29% 1% 28%;
+  }
+  .p3-b {
+    margin: 1% 20% 7% 20%;
+  }
+  footer .famousIcons3 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky3 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title3-A {
+    font-size: 3.4em;
+  }
+  .title3-B {
+    font-size: 3.5em;
+  }
+  .container-4 .contact h2 {
+    font-size: 3.5em;
+  }
+  .container-4 .contact h3 {
+    font-size: 3em;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 2em;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    font-size: 2.5em;
+  }
+  .container-4 .contact .typeDeConsulta select {
+    padding: 19px 0px;
+  }
+  .container-4 .contact .mensaje {
+    font-size: 2.5em;
+  }
+  .container-4 .contact .mensaje .comentarioTextArea {
+    height: 60vh;
+  }
+  .container-4 .contact .novedades h3 {
+    font-size: 2.5em;
+    margin: -2% -5% 4% -5%;
+  }
+  .container-4 .contact .novedades .answer {
+    font-size: 2.5em;
+  }
+  .container-4 .contact .submit {
+    font-size: 2.5em;
+    width: 26%;
+    margin: 5% 32%;
+  }
+  .infoClient .form-control-4 small {
+    font-size: 38px;
+  }
+  .p3 {
+    font-size: 3.5em;
+  }
+  .p3-b {
+    font-size: 3.5em;
+  }
+  .btn-whatsapp3 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart4 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart4 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons3 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons3 .icons3 {
+    font-size: 3em;
+  }
+  footer .logoOnky3 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky3 .copyright3 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 5. Tops: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoTops .logoCompleto4 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title4-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title4-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 31% 0% 35%;
+  padding: 24px 0px;
+}
+
+.portadaTops img {
+  width: 100%;
+  margin: 0% 0% 10% 0%;
+}
+
+.productosTops h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 8% 18% 8% 19%;
+}
+
+.productosTops img {
+  width: 71%;
+  height: 32vh;
+  margin: 8% 15%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.carousel5 .c1 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 10% -8% 11%;
+  padding: 52px 0px;
+}
+
+.carousel5 .carousel img {
+  height: 50vh;
+  margin: -9% 0% 13% 1%;
+  padding: 10% 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -12% 9% 6% 10%;
+  padding: 14px 0px;
+  font-weight: 600;
+}
+
+.compraTops .compraTops1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 4% 10%;
+  padding: 14px 0px;
+}
+
+.buttonComprar5 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  border-radius: 11px;
+  border: 4px solid var(--black);
+  cursor: pointer;
+  font-weight: 900;
+  margin: 0% 0% 8% 26%;
+  padding: 14px 0px;
+  width: 47%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonComprar5:hover {
+  background-color: var(--g);
+  color: white;
+}
+
+.btn-whatsapp4 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart5 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons4 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .icons4 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .icons4 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .icons4 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky4 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky4 .copyright4 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .productosTops img {
+    height: 52vh;
+  }
+  .carousel5 .carousel img {
+    height: 75vh;
+  }
+  .carousel5 .carousel-indicators {
+    margin-bottom: 2rem;
+  }
+  .buttonComprar5 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoTops .logoCompleto4 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title4-A {
+    font-size: 1.8em;
+  }
+  .title4-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .portadaTops img {
+    height: 90vh;
+  }
+  .productosTops h3 {
+    font-size: 1.7em;
+    margin: 2% 18% 2% 19%;
+  }
+  .productosTops img {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 3% 4%;
+  }
+  .productosTops img:last-child {
+    margin: 3% 29%;
+  }
+  .carousel5 .c1 {
+    font-size: 1.6em;
+    margin: 8% 10% -1% 11%;
+  }
+  .carousel5 .carousel img {
+    height: 90vh;
+    padding: 1px 127px;
+    margin: 0% 0% 20% 0%;
+  }
+  .c2 {
+    font-size: 1.7em;
+  }
+  .compraTops .compraTops1 {
+    font-size: 1.5em;
+  }
+  .buttonComprar5 {
+    font-size: 1.6em;
+  }
+  .btn-whatsapp4 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart5 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons4 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons4 .icons4 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky4 .copyright4 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoTops .logoCompleto4 {
+    margin: 12% 4% 2% 29%;
+  }
+  .portadaTops img {
+    width: 57%;
+    margin: 1% 22%;
+  }
+  .productosTops h3 {
+    margin: 12% 18% 2% 19%;
+  }
+  .productosTops img {
+    height: 52vh;
+    width: 31%;
+    margin: 3% 9%;
+  }
+  .productosTops img:last-child {
+    margin: 3% 34%;
+  }
+  .carousel5 .carousel img {
+    padding: 1px 266px;
+  }
+  footer .famousIcons4 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky4 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title4-A {
+    font-size: 3.4em;
+  }
+  .title4-B {
+    font-size: 3.5em;
+  }
+  .productosTops h3 {
+    font-size: 3.1em;
+  }
+  .carousel5 .c1 {
+    font-size: 3em;
+    margin: 10% 10% 1% 11%;
+  }
+  .c2 {
+    font-size: 3em;
+  }
+  .compraTops .compraTops1 {
+    font-size: 2.8em;
+  }
+  .buttonComprar5 {
+    font-size: 3em;
+    margin: 3% 27%;
+  }
+  .btn-whatsapp4 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart5 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart5 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 7% 0% 0% 0%;
+  }
+  footer .famousIcons4 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons4 .icons4 {
+    font-size: 3em;
+  }
+  footer .logoOnky4 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky4 .copyright4 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 6. Calzas: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoCalzas .logoCompleto5 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title5-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title5-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 28% 0% 28%;
+  padding: 24px 0px;
+}
+
+.portadaCalzas img {
+  width: 100%;
+  height: 34vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.productosCalzas h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 6% 18% 7% 18%;
+}
+
+.productosCalzas img {
+  width: 64%;
+  height: 41vh;
+  margin: 6% 18%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.carousel6 .c3 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: -1% 10% -7% 11%;
+  padding: 50px 0px;
+}
+
+.carousel6 .carousel img {
+  height: 55vh;
+  margin: -9% 0% 13% 1%;
+  padding: 10% 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -19% 11% 7% 12%;
+  padding: 14px 0px;
+  font-weight: bolder;
+}
+
+.compraCalzas .compraCalzas1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 4% 10%;
+  padding: 14px 0px;
+}
+
+.buttonComprar6 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  border-radius: 11px;
+  border: 4px solid var(--black);
+  cursor: pointer;
+  font-weight: 900;
+  margin: 0% 0% 8% 26%;
+  padding: 14px 0px;
+  width: 47%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonComprar6:hover {
+  background-color: var(--g);
+  color: white;
+}
+
+.btn-whatsapp5 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart6 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons5 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .famousIcons5 .icons5 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons5 .icons5 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons5 .icons5 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky5 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky5 .copyright5 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .portadaCalzas img {
+    height: 45vh;
+  }
+  .productosCalzas img {
+    height: 60vh;
+  }
+  .carousel6 .carousel img {
+    height: 75vh;
+  }
+  .carousel6 .carousel-indicators {
+    margin-bottom: 2rem;
+  }
+  .buttonComprar6 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoCalzas .logoCompleto5 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title5-A {
+    font-size: 1.8em;
+  }
+  .title5-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .portadaCalzas img {
+    height: 90vh;
+  }
+  .productosCalzas h3 {
+    font-size: 1.7em;
+    margin: 2% 18% 2% 19%;
+  }
+  .productosCalzas img {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 3% 4%;
+  }
+  .productosCalzas img:last-child {
+    margin: 3% 29%;
+  }
+  .carousel6 .c3 {
+    font-size: 1.6em;
+    margin: 8% 10% -1% 11%;
+  }
+  .carousel6 .carousel img {
+    height: 90vh;
+    padding: 1px 127px;
+    margin: 0% 0% 30% 0%;
+  }
+  .c4 {
+    font-size: 1.6em;
+  }
+  .compraCalzas .compraCalzas1 {
+    font-size: 1.5em;
+  }
+  .buttonComprar6 {
+    font-size: 1.6em;
+  }
+  .btn-whatsapp5 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart6 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons5 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons5 .icons5 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky5 .copyright5 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoCalzas .logoCompleto5 {
+    margin: 12% 4% 2% 29%;
+  }
+  .portadaCalzas img {
+    width: 57%;
+    margin: 1% 22%;
+  }
+  .productosCalzas h3 {
+    margin: 12% 18% 2% 19%;
+  }
+  .productosCalzas img {
+    height: 68vh;
+    width: 31%;
+    margin: 3% 9%;
+  }
+  .productosCalzas img:last-child {
+    margin: 3% 34%;
+  }
+  .carousel6 .carousel img {
+    padding: 1px 266px;
+  }
+  .compraCalzas .compraCalzas1 {
+    margin: 5% 1%;
+  }
+  footer .famousIcons5 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky5 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title5-A {
+    font-size: 3.4em;
+  }
+  .title5-B {
+    font-size: 3.5em;
+  }
+  .productosCalzas h3 {
+    font-size: 3.1em;
+  }
+  .carousel6 .c3 {
+    font-size: 3em;
+    margin: 10% 10% 1% 11%;
+  }
+  .c4 {
+    font-size: 3em;
+  }
+  .compraCalzas .compraCalzas1 {
+    font-size: 2.8em;
+  }
+  .buttonComprar6 {
+    font-size: 3em;
+    margin: 3% 27%;
+  }
+  .btn-whatsapp5 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart6 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart6 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 7% 0% 0% 0%;
+  }
+  footer .famousIcons5 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons5 .icons5 {
+    font-size: 3em;
+  }
+  footer .logoOnky5 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky5 .copyright5 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 7. Todos los productos: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoTodos .logoCompleto6 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.intro .title6-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.intro .title6-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 29% 0% 32%;
+  padding: 24px 0px;
+}
+
+.productosTodos .portada6 {
+  margin: 1% 0% 13% 0%;
+  width: 100%;
+  height: 53vh;
+}
+
+.productosTodos h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 4% 18% 1% 21%;
+  font-weight: 600;
+}
+
+.todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+  height: 47vh;
+  padding: 13px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fotosProductos .calzas1 .calzas {
+  width: 81%;
+  height: 49vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .tops2 .tops {
+  width: 81%;
+  height: 43vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .conjuntos3 .conjuntos {
+  width: 81%;
+  height: 49vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .cuellitos4 .cuellitos {
+  width: 81%;
+  height: 43vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .gorras5 .gorras {
+  width: 81%;
+  height: 43vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
+  width: 81%;
+  height: 43vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+.fotosProductos .remerasDeportivas7 .remerasDeportivas {
+  width: 81%;
+  height: 43vh;
+  margin: 6% 9%;
+  border: 3px solid var(--grey);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px 0px var(--black-light-version);
+          box-shadow: 1px 1px 2px 0px var(--black-light-version);
+}
+
+#contenedorFiltrado {
+  background: #fff;
+  display: inline-block;
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 0 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  border-radius: 3px;
+}
+
+figure #filtro {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+figure #filtro img {
+  width: 0px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+  border-top: 1px solid #e0e0e0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.inputFiltrado#calzas:checked ~ figure img.calzas {
+  width: 250px;
+}
+
+.inputFiltrado#calzas:checked ~ figure img:not(.calzas) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#tops:checked ~ figure img.tops {
+  width: 250px;
+}
+
+.inputFiltrado#tops:checked ~ figure img:not(.tops) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#conjuntos:checked ~ figure img.conjuntos {
+  width: 250px;
+}
+
+.inputFiltrado#conjuntos:checked ~ figure img:not(.conjuntos) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#cuellitos:checked ~ figure img.cuellitos {
+  width: 250px;
+}
+
+.inputFiltrado#cuellitos:checked ~ figure img:not(.cuellitos) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#gorras:checked ~ figure img.gorras {
+  width: 250px;
+}
+
+.inputFiltrado#gorras:checked ~ figure img:not(.gorras) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#remerasPersonalizadas:checked ~ figure img.remerasPersonalizadas {
+  width: 250px;
+}
+
+.inputFiltrado#remerasPersonalizadas:checked ~ figure img:not(.remerasPersonalizadas) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#remerasDeportivas:checked ~ figure img.remerasDeportivas {
+  width: 250px;
+}
+
+.inputFiltrado#remerasDeportivas:checked ~ figure img:not(.remerasDeportivas) {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.inputFiltrado#todos:checked ~ figure img {
+  width: 160px;
+  display: inline-block;
+  margin: 15px 0 0 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.45);
+}
+
+.inputFiltrado[type=radio] {
+  display: none;
+}
+
+.labelFiltrado {
+  position: relative;
+  padding: .5rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 15px 1px 0 0;
+  background: #eee;
+}
+
+.labelFiltrado:hover {
+  cursor: pointer;
+  background: #e5e5e5;
+  color: tomato;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.inputFiltrado#x + .labelFiltrado {
+  padding: 5px;
+  border-radius: 50%;
+  background: #eee;
+  color: #999;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
+}
+
+.inputFiltrado#x + .labelFiltrado:hover,
+.inputFiltrado#x:checked + .labelFiltrado {
+  background: tomato;
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.inputFiltrado:checked + .labelFiltrado {
+  background: rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0 1px #222222;
+  color: #fff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45);
+  border-color: #fff;
+}
+
+.ultimaParte .c6 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 10% -1% 11%;
+  padding: 33px 0px;
+  font-weight: 600;
+}
+
+.ultimaParte .compraTodos .compraTodos6 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 4% 10%;
+  padding: 14px 0px;
+}
+
+.buttonComprar7 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  border-radius: 11px;
+  border: 4px solid var(--black);
+  cursor: pointer;
+  font-weight: 900;
+  margin: 0% 0% 8% 26%;
+  padding: 14px 0px;
+  width: 47%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttonComprar7:hover {
+  background-color: var(--g);
+  color: white;
+}
+
+.btn-whatsapp6 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart7 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons6 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+footer .famousIcons6 .icons6 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons6 .icons6 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons6 .icons6 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky6 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky6 .copyright6 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .productosTodos .portada6 {
+    height: 80vh;
+  }
+  .todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+    height: 80vh;
+  }
+  .fotosProductos .calzas1 .calzas {
+    width: 40%;
+  }
+  .fotosProductos .tops2 .tops {
+    width: 40%;
+  }
+  .fotosProductos .conjuntos3 .conjuntos {
+    width: 40%;
+  }
+  .fotosProductos .cuellitos4 .cuellitos {
+    width: 40%;
+  }
+  .fotosProductos .gorras5 .gorras {
+    width: 40%;
+  }
+  .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
+    width: 40%;
+  }
+  .fotosProductos .remerasDeportivas7 .remerasDeportivas {
+    width: 40%;
+  }
+  .buttonComprar7 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoTodos .logoCompleto6 {
+    margin: 18% 4% 2% 29%;
+  }
+  .intro .title6-A {
+    font-size: 1.8em;
+  }
+  .intro .title6-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .productosTodos .portada6 {
+    height: 68vh;
+    width: 45%;
+    margin: 1% 28% 7% 28%;
+  }
+  .productosTodos h3 {
+    font-size: 1.7em;
+    margin: 2% 0%;
+  }
+  .productosTodos .todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+    height: 90vh;
+    padding: 1px 127px;
+  }
+  .productosTodos .fotosProductos .calzas1 h3 {
+    font-size: 2em;
+    margin: 10% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .calzas1 .calzas {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .tops2 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .tops2 .tops {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .conjuntos3 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .conjuntos3 .conjuntos {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .cuellitos4 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .cuellitos4 .cuellitos {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .gorras5 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .gorras5 .gorras {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .remerasPersonalizadas6 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  .productosTodos .fotosProductos .remerasDeportivas7 h3 {
+    font-size: 2em;
+    margin: 4% -7% -4% 0%;
+  }
+  .productosTodos .fotosProductos .remerasDeportivas7 .remerasDeportivas {
+    height: 52vh;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 8% 4%;
+  }
+  h3 {
+    font-size: 1.7em;
+    margin: 2% 18% 2% 19%;
+  }
+  .carousel-Nuestros-Productos .carousel img {
+    height: 100vh;
+  }
+  .c6 {
+    font-size: 1.6em;
+  }
+  .compraTodos .compraTodos6 {
+    font-size: 1.5em;
+  }
+  .buttonComprar7 {
+    font-size: 1.6em;
+  }
+  .btn-whatsapp6 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart7 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons6 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons6 .icons6 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky6 .copyright6 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoTodos .logoCompleto6 {
+    margin: 12% 4% 2% 29%;
+  }
+  .productosTodos .portada6 {
+    height: 68vh;
+    width: 33%;
+    margin: 1% 28% 7% 34%;
+  }
+  .productosTodos h3 {
+    margin: 1% 18% -3% 19%;
+  }
+  .productosTodos .todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+    padding: 60px 346px;
+  }
+  #contenedorFiltrado {
+    margin: 1rem 15rem;
+  }
+  .compraTodos .compraTodos6 {
+    margin: 5% 1%;
+  }
+  footer .famousIcons6 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky6 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro .title6-A {
+    font-size: 3.4em;
+  }
+  .intro .title6-B {
+    font-size: 3.5em;
+  }
+  .productosTodos h3 {
+    font-size: 3.1em;
+    margin-bottom: 0%;
+  }
+  .productosTodos .portada6 {
+    margin: 3% 28% 7% 34%;
+  }
+  #contenedorFiltrado {
+    margin: 1rem 17rem;
+    padding: 36px -3px;
+  }
+  #contenedorFiltrado label.labelFiltrado {
+    font-size: 1.9em;
+  }
+  .inputFiltrado#todos:checked ~ figure img {
+    width: 355px;
+  }
+  .ultimaParte .c6 {
+    font-size: 3em;
+    margin: 12% 10% -1% 11%;
+  }
+  .ultimaParte .compraTodos .compraTodos6 {
+    font-size: 2.8em;
+    margin: 4% 0%;
+  }
+  .buttonComprar7 {
+    font-size: 3em;
+    margin: 3% 27%;
+  }
+  .btn-whatsapp6 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart7 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart7 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 7% 0% 0% 0%;
+  }
+  footer .famousIcons6 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons6 .icons6 {
+    font-size: 3em;
+  }
+  footer .logoOnky6 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky6 .copyright6 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 8. Iniciar sesión */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoInicioDeSesion .logoCompleto7 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.intro-I-S .title7-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.intro-I-S .title7-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 28% 0% 33%;
+  padding: 24px 0px;
+}
+
+.contactUs7 {
+  width: 100%;
+  height: 44vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.containerIS {
+  margin: auto;
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 17% 0%;
+}
+
+.containerIS .formIS h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 31% 5% 24%;
+  padding: 24px 0px;
+}
+
+.containerIS .formIS .info-I-S {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -8% 11% 6% 3%;
+  padding: 24px 0px;
+}
+
+.containerIS .formIS .form-control-IS {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.containerIS .formIS .form-control-IS label {
+  margin: 1% 18%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.containerIS .formIS .form-control-IS label input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.containerIS .formIS .form-control-IS label input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.containerIS .formIS label.success input {
+  border-color: #00c854;
+}
+
+.containerIS .formIS label.error input {
+  border-color: #ff6b5b;
+}
+
+.containerIS .formIS small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.containerIS .formIS small.error {
+  visibility: visible;
+}
+
+.containerIS .formIS .submit-I-S {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 32%;
+  margin: 4% 18% 13% 30%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
+          box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.containerIS .formIS .submit-I-S:hover {
+  background-color: var(--beige1);
+  color: var(--black);
+}
+
+.passwordP {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  text-align: center;
+  margin: -6% 14% 11% 15%;
+  border-top: 1px solid var(--black);
+}
+
+.passwordP a,
+.passwordP a:visited {
+  text-decoration: none;
+  color: var(--black-light-version);
+}
+
+.botonesI-S button {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  font-size: 1em;
+  font-weight: 600;
+  width: 44%;
+  margin: 2% 0% 6% 28%;
+  padding: 7px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
+          box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.botonesI-S button:hover {
+  background-color: var(--beige1);
+  color: var(--black);
+}
+
+.botonesI-S button a,
+.botonesI-S button a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btn-whatsapp7 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart8 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons7 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 26% 17% 1% 20%;
+}
+
+footer .famousIcons7 .icons7 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons7 .icons7 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons7 .icons7 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky7 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky7 .copyright7 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .contactUs7 {
+    height: 50vh;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 8% 6% -2%;
+  }
+  .containerIS .formIS h2 {
+    margin: 0% 31% 5% 20%;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 1% 24%;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 28%;
+    padding: 10px 0px;
+  }
+  .botonesI-S button {
+    width: 40%;
+    margin: 2% 0% 6% 30%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoInicioDeSesion .logoCompleto7 {
+    margin: 18% 4% 2% 29%;
+  }
+  .intro-I-S .title7-A {
+    font-size: 1.8em;
+  }
+  .intro-I-S .title7-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs7 {
+    height: 90vh;
+  }
+  .containerIS .formIS h2 {
+    font-size: 2.1em;
+    margin: 0% 31% 5% 23%;
+  }
+  .containerIS .formIS .info-I-S {
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 1% 26%;
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 32%;
+    padding: 16px 0px;
+    width: 26%;
+  }
+  .passwordP {
+    font-size: 1.5em;
+  }
+  .botonesI-S button {
+    width: 26%;
+    padding: 14px 0px;
+    margin: 2% 0% 5% 37%;
+  }
+  .btn-whatsapp7 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart8 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons7 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons7 .icons7 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky7 .copyright7 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoInicioDeSesion .logoCompleto7 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs7 {
+    height: 90vh;
+    width: 60%;
+    margin: 1% 20%;
+  }
+  .containerIS .formIS h2 {
+    margin: 4% 31% 9% 20%;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 10% 1% -1%;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 2% 30%;
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 31%;
+    font-size: 1.5em;
+  }
+  .passwordP {
+    margin: -5% 17% 10% 16%;
+  }
+  .botonesI-S button {
+    width: 23%;
+    font-size: 1.5em;
+    margin: 2% 0% 5% 38%;
+  }
+  footer .famousIcons7 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky7 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro-I-S .title7-A {
+    font-size: 3.4em;
+  }
+  .intro-I-S .title7-B {
+    font-size: 3.2em;
+    margin: 4% 28% 1% 29%;
+  }
+  .contactUs7 {
+    height: 70vh;
+  }
+  .containerIS .formIS h2 {
+    font-size: 3.5em;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 10% 1% -1%;
+    font-size: 3em;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 2% 24%;
+    font-size: 3em;
+  }
+  .containerIS .formIS .submit-I-S {
+    font-size: 3em;
+  }
+  .passwordP {
+    font-size: 3em;
+  }
+  .botonesI-S button {
+    font-size: 3em;
+  }
+  .containerIS .formIS small {
+    font-size: 38px;
+  }
+  .btn-whatsapp7 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart8 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart8 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons7 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons7 .icons7 {
+    font-size: 3em;
+  }
+  footer .logoOnky7 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky7 .copyright7 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 9. Registrate */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoRegistrate .logoCompleto8 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.introRegistrate .title8-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.introRegistrate .title8-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 30% 0% 31%;
+  padding: 24px 0px;
+}
+
+.contactUs8 {
+  width: 100%;
+  height: 34vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.container-R-8 {
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 17% 0%;
+}
+
+.container-R-8 .form-R-8 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-weight: bolder;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 6% -6% 3% -4%;
+  padding: 24px 0px;
+}
+
+.container-R-8 .form-R-8 .info-R-8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -8% 3% 6% -5%;
+  padding: 24px 0px;
+}
+
+.container-R-8 .form-R-8 .infoClient8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -9% 11% 9% 4%;
+  padding: 24px 0px;
+}
+
+.container-R-8 .form-R-8 .form-control-R-8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 {
+  margin: 1% 14%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 0.9em;
+  width: 70%;
+}
+
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.container-R-8 .form-R-8 .infoDelCliente8.success input {
+  border-color: #00c854;
+}
+
+.container-R-8 .form-R-8 .infoDelCliente8.error input {
+  border-color: #ff6b5b;
+}
+
+.container-R-8 .form-R-8 small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.container-R-8 .form-R-8 small.error {
+  visibility: visible;
+}
+
+.container-R-8 .form-R-8 .novedades8 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 16% 0% 4% -1%;
+}
+
+.container-R-8 .form-R-8 .novedades8 .answer8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 0.8em;
+  margin: 0% -9% 8% -7%;
+}
+
+.container-R-8 .form-R-8 .submit8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  font-size: 1em;
+  font-weight: 600;
+  width: 55%;
+  margin: 5% 37% 7% 21%;
+  padding: 7px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
+          box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.container-R-8 .form-R-8 .submit8:hover {
+  background-color: var(--beige1);
+  color: var(--black);
+}
+
+.container-R-8 .form-R-8 .submit8 a,
+.container-R-8 .form-R-8 .submit8 a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.p8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: 18% 19% 8% 21%;
+  padding: 27px 0px;
+  border-top: 1px solid var(--black);
+  font-weight: bolder;
+}
+
+.btn-whatsapp8 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart9 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons8 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons8 .icons8 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons8 .icons8 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons8 .icons8 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky8 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky8 .copyright8 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .contactUs8 {
+    height: 60vh;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    margin: -8% 13% 6% 4%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoRegistrate .logoCompleto8 {
+    margin: 18% 4% 2% 29%;
+  }
+  .introRegistrate .title8-A {
+    font-size: 1.8em;
+  }
+  .introRegistrate .title8-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs8 {
+    height: 90vh;
+  }
+  .container-R-8 .form-R-8 h2 {
+    font-size: 1.9em;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    font-size: 1.5em;
+    margin: -4% 13% 10% 4%;
+  }
+  .container-R-8 .form-R-8 .novedades8 h3 {
+    font-size: 1.1em;
+    margin: 16% 0% 4% -2%;
+  }
+  .container-R-8 .form-R-8 .novedades8 .answer8 {
+    font-size: 0.9em;
+  }
+  .container-R-8 .form-R-8 .submit8 {
+    padding: 13px 0px;
+  }
+  .p8 {
+    font-size: 1.8em;
+  }
+  .btn-whatsapp8 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart9 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons8 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons8 .icons8 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky8 .copyright8 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoRegistrate .logoCompleto8 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs8 {
+    width: 60%;
+    margin: 1% 21%;
+  }
+  .p8 {
+    margin: -8% 20% 4% 23%;
+  }
+  footer .famousIcons8 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky8 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .introRegistrate .title8-A {
+    font-size: 3.4em;
+  }
+  .introRegistrate .title8-B {
+    font-size: 3.5em;
+  }
+  .container-R-8 .form-R-8 h2 {
+    font-size: 3.5em;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    font-size: 2.4em;
+  }
+  .container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 {
+    font-size: 2em;
+  }
+  .container-R-8 .form-R-8 .novedades8 h3 {
+    font-size: 2.5em;
+  }
+  .container-R-8 .form-R-8 .novedades8 .answer8 {
+    font-size: 2.3em;
+  }
+  .container-R-8 .form-R-8 .submit8 {
+    padding: 13px 0px;
+    font-size: 2.3em;
+    width: 35%;
+    margin: 0% 5%;
+  }
+  .infoClient8 .form-control-R-8 small {
+    font-size: 38px;
+  }
+  .p8 {
+    font-size: 3.5em;
+  }
+  .btn-whatsapp8 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart9 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart9 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons8 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons8 .icons8 {
+    font-size: 3em;
+  }
+  footer .logoOnky8 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky8 .copyright8 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 10. Respuesta para el form de "Contact Us": */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoRespuesta .logoCompleto10 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title10-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.respuestaImg {
+  width: 100%;
+  height: 33vh;
+  margin: 6% 0%;
+}
+
+.title10-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 9% 6% -2% 5%;
+  padding: 24px 0px;
+}
+
+.p10 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 7% 6% 5%;
+  padding: 23px 0px;
+}
+
+.btn-Whatsapp10 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart10 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons10 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons10 .icons10 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons10 .icons10 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons10 .icons10 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky10 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky10 .copyright10 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .respuestaImg {
+    height: 40vh;
+  }
+  .title10-B {
+    margin: 9% 14% -2% 16%;
+  }
+  .p10 {
+    margin: 4% 14% 6% 16%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoRespuesta .logoCompleto10 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title10-A {
+    font-size: 1.8em;
+  }
+  .respuestaImg {
+    height: 46vh;
+    width: 69%;
+    margin: 5% 16%;
+  }
+  .title10-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .p10 {
+    font-size: 1.8em;
+  }
+  .btn-Whatsapp10 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart10 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons10 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons10 .icons10 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky10 .copyright10 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoRespuesta .logoCompleto10 {
+    margin: 12% 4% 2% 29%;
+  }
+  .respuestaImg {
+    width: 30%;
+    margin: 5% 35%;
+  }
+  footer .famousIcons10 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky10 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title10-A {
+    font-size: 3.4em;
+  }
+  .title10-B {
+    font-size: 3.5em;
+  }
+  .p10 {
+    font-size: 3.1em;
+  }
+  .btn-Whatsapp10 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart10 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart10 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons10 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons10 .icons10 {
+    font-size: 3em;
+  }
+  footer .logoOnky10 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky10 .copyright10 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 11. Password: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoPassword .logoCompleto11 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title11-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.passwordImg {
+  width: 100%;
+  height: 33vh;
+  margin: 6% 0%;
+}
+
+.containerPassword {
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 21% 0%;
+}
+
+.containerPassword .passwordForm .title11-B {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% 1% 1% -5%;
+  padding: 24px 0px;
+}
+
+.containerPassword .passwordForm .p11 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 6% 6% -4%;
+  padding: 31px 0px;
+}
+
+.containerPassword .passwordForm .correoPassword {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.containerPassword .passwordForm .correoPassword .correoPassword11 {
+  margin: 1% 18%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.containerPassword .passwordForm .correoPassword .correoPassword11 input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.containerPassword .passwordForm .correoPassword .correoPassword11 input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.containerPassword .passwordForm .correoPassword11.success input {
+  border-color: #00c854;
+}
+
+.containerPassword .passwordForm .correoPassword11.error input {
+  border-color: #ff6b5b;
+}
+
+.containerPassword .passwordForm small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.containerPassword .passwordForm small.error {
+  visibility: visible;
+}
+
+.containerPassword .passwordForm .submit-Password {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 32%;
+  margin: 4% 18% 13% 30%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
+          box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.containerPassword .passwordForm .submit-Password:hover {
+  background-color: var(--beige1);
+  color: var(--black);
+}
+
+.containerPassword .passwordForm .submit-Password a,
+.containerPassword .passwordForm .submit-Password a:visited {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btn-Whatsapp11 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart11 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons11 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons11 .icons11 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons11 .icons11 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons11 .icons11 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky11 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky11 .copyright11 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .passwordImg {
+    height: 50vh;
+  }
+  .containerPassword .passwordForm .p11 {
+    margin: 4% 19% 6% 8%;
+  }
+  .containerPassword .passwordForm .correoPassword {
+    margin: -8% 5% 0% 6%;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 1% 18%;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    margin: 4% 18% 13% 29%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoPassword .logoCompleto11 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title11-A {
+    font-size: 1.8em;
+  }
+  .passwordImg {
+    height: 65vh;
+    width: 45%;
+    margin: 4% 28% 7% 28%;
+  }
+  .containerPassword .passwordForm .title11-B {
+    font-size: 1.9em;
+  }
+  .containerPassword .passwordForm .p11 {
+    font-size: 1.5em;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 1% 21%;
+    font-size: 1.3em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 1.3em;
+    width: 28%;
+    margin: 4% 18% 13% 30%;
+    padding: 13px 0px;
+  }
+  .btn-Whatsapp11 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart11 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons11 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons11 .icons11 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky11 .copyright11 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoPassword .logoCompleto11 {
+    margin: 12% 4% 2% 29%;
+  }
+  .containerPassword .passwordForm .title11-B {
+    margin: 5% 0% 0% -4%;
+  }
+  .containerPassword .passwordForm .p11 {
+    margin: 3% 26% 1% 17%;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 4% 26%;
+    font-size: 1.3em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 1.4em;
+    width: 27%;
+    margin: 4% 18% 13% 31%;
+    padding: 13px 0px;
+  }
+  footer .famousIcons11 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky11 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title11-A {
+    font-size: 3.4em;
+  }
+  .containerPassword .passwordForm .title11-B {
+    font-size: 3.5em;
+  }
+  .containerPassword .passwordForm .p11 {
+    font-size: 2.4em;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 4% 22%;
+    font-size: 2.5em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 2.8em;
+  }
+  .containerPassword .passwordForm small {
+    font-size: 38px;
+  }
+  .btn-Whatsapp11 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart11 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart11 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons11 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons11 .icons11 {
+    font-size: 3em;
+  }
+  footer .logoOnky11 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky11 .copyright11 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 12. Bienvenido: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoBienvenido .logoCompleto12 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title12-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.bienvenidoImg {
+  width: 100%;
+  height: 33vh;
+  margin: 6% 0%;
+}
+
+.bienvenidoForm {
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 21% 0%;
+}
+
+.bienvenidoForm .title12-B {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% 1% 1% -5%;
+  padding: 24px 0px;
+}
+
+.bienvenidoForm .title12-C {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: -5% 10% -1% -2%;
+  padding: 26px 0px;
+}
+
+.btn-Whatsapp12 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart12 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons12 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons12 .icons12 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons12 .icons12 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons12 .icons12 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky12 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky12 .copyright12 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .bienvenidoImg {
+    height: 50vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoBienvenido .logoCompleto12 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title12-A {
+    font-size: 1.8em;
+  }
+  .bienvenidoImg {
+    height: 65vh;
+    width: 45%;
+    margin: 4% 28% 7% 28%;
+  }
+  .bienvenidoForm .title12-B {
+    font-size: 1.9em;
+  }
+  .bienvenidoForm .title12-C {
+    font-size: 1.9em;
+  }
+  .btn-Whatsapp12 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart12 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons12 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons12 .icons12 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky12 .copyright12 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoBienvenido .logoCompleto12 {
+    margin: 12% 4% 2% 29%;
+  }
+  .bienvenidoForm .title12-B {
+    margin: 3% -5%;
+  }
+  .bienvenidoForm .title12-C {
+    margin: -5% 0% 1% -6%;
+  }
+  footer {
+    margin: -7% 0% 0% 0%;
+  }
+  footer .famousIcons12 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky12 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title12-A {
+    font-size: 3.4em;
+  }
+  .bienvenidoForm .title12-B {
+    font-size: 3.7em;
+  }
+  .bienvenidoForm .title12-C {
+    font-size: 3.7em;
+  }
+  .btn-Whatsapp12 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart12 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart12 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons12 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons12 .icons12 {
+    font-size: 3em;
+  }
+  footer .logoOnky12 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky12 .copyright12 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 13. Respuesta para el form de "Password": */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoRespuestaPassword .logoCompleto13 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title13-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.respuestaPasswordImg {
+  width: 100%;
+  height: 33vh;
+  margin: 6% 0%;
+}
+
+.respuestaPasswordForm {
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% 21% 0%;
+}
+
+.respuestaPasswordForm .title13-B {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% 14% 1% 4%;
+  padding: 24px 0px;
+}
+
+.btn-Whatsapp13 {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.cart13 {
+  display: block;
+  height: 42px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 339px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+  width: 30px;
+  border: 3px solid var(--black-light-version);
+  background-color: white;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons13 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons13 .icons13 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons13 .icons13 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons13 .icons13 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky13 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky13 .copyright13 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .title13-A {
+    margin: 0% 24% 0% 25%;
+  }
+  .respuestaPasswordImg {
+    height: 50vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    margin: 2% 11% 1% -2%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoRespuestaPassword .logoCompleto13 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title13-A {
+    font-size: 1.8em;
+  }
+  .respuestaPasswordImg {
+    height: 90vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    font-size: 1.9em;
+  }
+  .btn-Whatsapp13 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart13 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons13 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons13 .icons13 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky13 .copyright13 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoRespuestaPassword .logoCompleto13 {
+    margin: 12% 4% 2% 29%;
+  }
+  .respuestaPasswordImg {
+    height: 80vh;
+    width: 66%;
+    margin: 3% 17%;
+  }
+  footer .famousIcons13 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky13 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title13-A {
+    font-size: 3.4em;
+  }
+  .respuestaPasswordImg {
+    height: 65vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    font-size: 3.5em;
+  }
+  .btn-Whatsapp13 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart13 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart13 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: -12% 0% 0% 0%;
+  }
+  footer .famousIcons13 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons13 .icons13 {
+    font-size: 3em;
+  }
+  footer .logoOnky13 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky13 .copyright13 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
+/* 14. Cart: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
+.logoCarrito .logoCompleto14 {
+  width: 44%;
+  margin: 25% 4% 2% 29%;
+}
+
+.title14-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title14-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 26% 0% 28%;
+  padding: 24px 0px;
+}
+
+.cartImg {
+  width: 100%;
+  height: 33vh;
+  margin: 6% 0%;
+}
+
+.btnWhatsapp {
+  display: block;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 3px;
+  bottom: 195px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  width: 30px;
+}
+
+.metodoDeCompra div .subtitleCart1 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 5% 0% 2% 0%;
+  padding: 13px 0px;
+  background-color: #101c26;
+}
+
+.metodoDeCompra div .subtitleCart2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  background-color: #101c26;
+  text-align: center;
+  margin: -2% 0% 0% 0%;
+  padding: 13px 0px;
+}
+
+.metodoDeCompra ul li .cart14 {
+  margin: 11% 0% 2% 44%;
+  font-size: 1.3em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.metodoDeCompra ul li p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+}
+
+.metodoDeCompra ul li .shirt {
+  margin: 11% 0% 2% 44%;
+  font-size: 1.3em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.metodoDeCompra ul li p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+}
+
+.metodoDeCompra ul li .add {
+  margin: 11% 0% 2% 44%;
+  font-size: 1.3em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.metodoDeCompra ul li p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+}
+
+.metodoDeCompra .subtitleCart3 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 5% 0% 2% 0%;
+  padding: 13px 0px;
+  background-color: #101c26;
+}
+
+.metodoDeCompra .subtitleCart4 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: -2% 0% 2% 0%;
+  padding: 13px 0px;
+  background-color: #101c26;
+}
+
+.yourProducts {
+  color: var(--black);
+  font-size: 1.8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1% 15%;
+  font-weight: 500;
+}
+
+.pProducts {
+  font-size: 1.1em;
+  margin: 2% 0% 6% 0%;
+  padding: 5px 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid var(--grey);
+}
+
+.cart {
+  -webkit-box-shadow: 0 0 5px #DDD;
+          box-shadow: 0 0 5px #DDD;
+  padding: 20px;
+  margin: 6% 0%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clear {
+  font-family: "Alegreya Sans", sans-serif;
+  background-color: var(--grey);
+  color: white;
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 3% 0% 8% 29%;
+  padding: 10px 0px;
+  width: 39%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clear:hover {
+  background-color: var(--beige);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  background-color: --beige;
+  color: var(--black);
+  font-weight: 900;
+}
+
+a #inicio {
+  font-family: "Alegreya Sans", sans-serif;
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0% 0% 8% 27%;
+  padding: 9px 0px;
+  width: 42%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a #inicio:hover {
+  background-color: var(--grey);
+  color: white;
+}
+
+.listOfProducts {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 10% 0% 10%;
+  padding: 24px 0px;
+}
+
+.imgProducts {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 42vh;
+  margin: 2% 10%;
+}
+
+.nameOfTheProduct {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 4% 10% 0% 10%;
+}
+
+.tiny {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige);
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2% 0% 11% 21%;
+  padding: 10px 0px;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tiny:hover {
+  background-color: var(--grey);
+  color: white;
+}
+
+.gracias {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-weight: 900;
+  font-size: 1.7em;
+  text-align: center;
+  margin: -1% 11% 4% 11%;
+  padding: 14px 0px;
+}
+
+footer {
+  background-color: #333;
+  color: var(--beige);
+  padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
+  border-top: 3px solid var(--grey);
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+          box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+}
+
+footer .famousIcons14 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--beige);
+  font-size: 1.4em;
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+footer .famousIcons14 .icons14 {
+  margin: 4% 20% 3% 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .famousIcons14 .icons14 a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+footer .famousIcons14 .icons14 a i {
+  cursor: pointer;
+}
+
+footer .logoOnky14 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+footer .logoOnky14 .copyright14 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--beige);
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1% 2% 22% 3%;
+}
+
+footer .top {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  border: 3px solid var(--orange);
+  background-color: white;
+  height: 41px;
+  position: fixed;
+  right: 3px;
+  bottom: 230px;
+  border-radius: 5%;
+  line-height: 31px;
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .cartImg {
+    height: 40vh;
+  }
+  .metodoDeCompra ul li p {
+    margin: 0% 1% 0% -2%;
+  }
+  .yourProducts {
+    margin: 3% 25%;
+  }
+  .imgProducts {
+    height: 60vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoCarrito .logoCompleto14 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title14-A {
+    font-size: 1.8em;
+  }
+  .title14-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .cartImg {
+    height: 50vh;
+    width: 45%;
+    margin: 1% 28% 7% 28%;
+  }
+  .btnWhatsapp {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .metodoDeCompra div .subtitleCart1 {
+    font-size: 1.8em;
+  }
+  .metodoDeCompra div .subtitleCart2 {
+    font-size: 1.8em;
+  }
+  .metodoDeCompra ul li .cart14 {
+    margin: 9% 1% 1% 45%;
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li p {
+    margin: 0% 1% 0% -1%;
+    font-size: 1.7em;
+  }
+  .metodoDeCompra ul li .shirt {
+    margin: 9% 1% 1% 45%;
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li p {
+    margin: 0% 1% 0% -1%;
+    font-size: 1.7em;
+  }
+  .metodoDeCompra ul li .add {
+    margin: 9% 1% 1% 45%;
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li p {
+    margin: 0% 1% 0% -1%;
+    font-size: 1.7em;
+  }
+  .metodoDeCompra .subtitleCart3 {
+    font-size: 1.8em;
+  }
+  .metodoDeCompra .subtitleCart4 {
+    font-size: 1.8em;
+  }
+  .cart {
+    padding: 0px;
+  }
+  .yourProducts {
+    margin: 6% 13%;
+    font-size: 1.3em;
+  }
+  #clear {
+    margin: 3% 0% 8% 29%;
+    padding: 14px 0px;
+    width: 85%;
+  }
+  a #inicio {
+    margin: 0% 0% 8% 20%;
+    padding: 15px 0px;
+    width: 96%;
+  }
+  .imgProducts {
+    height: 30vh;
+    width: 100%;
+  }
+  .nameOfTheProduct {
+    font-size: 1.1em;
+    margin: 5% -4% 6% 9%;
+  }
+  .tiny {
+    margin: 2% 0% 11% 6%;
+    width: 86%;
+  }
+  .gracias {
+    border-top: 1px solid var(--black);
+    font-size: 1.9em;
+    margin: 15% 15% 4% 22%;
+  }
+  footer .famousIcons14 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons14 .icons14 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky14 .copyright14 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoCarrito .logoCompleto14 {
+    margin: 12% 4% 2% 29%;
+  }
+  .metodoDeCompra ul li .cart14 {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li .shirt {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li .add {
+    margin: 9% 1% 1% 46%;
+  }
+  .yourProducts {
+    margin: 6% 10%;
+  }
+  #clear {
+    margin: 3% 0% 8% 23%;
+  }
+  a #inicio {
+    margin: 0% 0% 8% 15%;
+    padding: 13px 0px;
+    width: 94%;
+  }
+  .imgProducts {
+    margin: 1% 1%;
+  }
+  footer .famousIcons14 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky14 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title14-A {
+    font-size: 3.4em;
+  }
+  .title14-B {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra div .subtitleCart1 {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra div .subtitleCart2 {
+    font-size: 3.5em;
+    margin-top: -3%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .cart14 {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .shirt {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .add {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra .subtitleCart3 {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra .subtitleCart4 {
+    font-size: 3.5em;
+    margin-top: -3%;
+  }
+  .cart {
+    padding: 11px;
+    width: 91%;
+    height: 55vh;
+    margin: 8% -4%;
+  }
+  .yourProducts {
+    font-size: 2.1em;
+    margin: 6% 0%;
+  }
+  #clear {
+    margin: 2% 0% 8% 1%;
+    width: 93%;
+    padding: 22px 3px;
+    font-size: 2em;
+  }
+  a #inicio {
+    margin: 0% 0% 8% -9%;
+    padding: 23px 0px;
+    width: 100%;
+    font-size: 2em;
+  }
+  .pProducts {
+    font-size: 1.8em;
+  }
+  .listOfProducts {
+    font-size: 3.5em;
+  }
+  .imgProducts {
+    height: 32vh;
+  }
+  .nameOfTheProduct {
+    font-size: 2.5em;
+    margin-right: 10%;
+  }
+  .gracias {
+    font-size: 3.2em;
+  }
+  .btnWhatsapp {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  footer {
+    margin: 7% 0% 0% 0%;
+  }
+  footer .famousIcons14 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons14 .icons14 {
+    font-size: 3em;
+  }
+  footer .logoOnky14 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky14 .copyright14 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
